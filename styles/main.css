@@ -1,0 +1,138 @@
+/*REGLAS GLOBALES*/
+.wrap{
+    /* Box-model */
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    border: 1px;
+
+    /*Tipografía*/
+    background-color: #FFFFFF;
+}
+
+h1{
+    margin-top: 10px;
+    /*Tipografía*/
+    font-family: Arial;
+    font-style: normal;
+    font-size: 2.75rem;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+h2{
+    /*Tipografía*/
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    color: #1F3F68;
+    font-size: 2.25rem;
+    margin-bottom: 20px;
+    width: 380px;
+}
+
+p{
+    /*Tipografía*/
+    font-family: Arial;
+    font-style: normal;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+header{
+    width: 100%;
+}
+
+h4{
+    /*Tipografía*/
+    font-family: Helvetica;
+    font-style: normal;
+    color: #1F3F68;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.header-nav{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+.header-nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+.header-nav li{
+    margin-right: 40px;
+}
+
+.header-nav a{
+    font-family: helvetica;
+    color: black; 
+}
+
+.header-image {
+    width: 100%;
+    position: relative;
+}
+
+.header-search{
+    position: relative;
+    width: 70%;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.header-search input{
+    width: 100%;
+    border-radius: 5px;
+    padding: 15px ;
+    background-color: #F4F4F4;
+    border: 0;
+    font-size: 1rem;
+}
+
+.header-search i{
+    position: absolute;
+    padding: 15px;
+}
+
+main h3{
+    color:#356EAD;
+    font-family: helvetica;
+    font-style: bold;
+    font-size: 1.25rem;
+    opacity: 80%;
+    margin: 80px auto;
+    width: 70%;
+}
+
+.popular-article{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+ .popular-article .autor{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 195px;
+}
+
+.popular-article .share{
+    display: flex;
+    justify-content: space-between;
+}
+.popular-article .share figure{
+    margin-right: 30px;
+}
+
+.popular-article .autor time{
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.second-article{
+    display: flex;
+    justify-content: space-between;
+}
