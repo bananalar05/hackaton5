@@ -97,21 +97,23 @@ h4{
     padding: 15px;
 }
 
+main{
+    width: 70%;
+    margin: auto;
+}
 main h3{
     color:#356EAD;
     font-family: helvetica;
     font-style: bold;
     font-size: 1.25rem;
     opacity: 80%;
-    margin: 80px auto;
-    width: 70%;
+    margin-bottom: 80px;
 }
 
 .popular-article{
-    width: 70%;
-    margin: auto;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 30px;
 }
 
  .popular-article .autor{
@@ -135,4 +137,13 @@ main h3{
 .second-article{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.second-article article{
+    margin-right: 6.5px;
+}
+main a{
+    display: block;
+    margin-bottom: 30px;
 }
