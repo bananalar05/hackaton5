@@ -153,9 +153,7 @@ main h3{
 .other-article{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    grid-template-rows: 500px;
     grid-column-gap: 20px;
-    grid-row-gap: 15px;
 }
 /*---------------------------------*/
 main a{
