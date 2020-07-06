@@ -80,8 +80,7 @@ time{
 .banner div{
     position: absolute;
     width: 100%;
-    height: 100%;
-    top: 60px;
+    top: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;   
@@ -89,6 +88,7 @@ time{
 .banner p{
     color: #FFFFFF;
     text-align: center;
+    font-size: 1.3rem;
 }
 
 /*---------------------------------*/
@@ -198,15 +198,13 @@ footer{
     border-top-right-radius: 90px;
 }
 
-.wrap2{
-    margin: 0 0 0 320px;
-}
 .wrap2 section{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-column-gap: 40px;
     justify-items: stretch;
     margin-bottom: 60px;
+    margin-left: 45px;
 }
 
 footer h2,
